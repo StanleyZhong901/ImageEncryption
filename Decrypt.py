@@ -54,3 +54,5 @@ def decryptingMessage(deleteTheFile):
         if deleteTheFile == True:
             os.remove('encryptedPhoto.png')
     
+if __name__ == "__main__":
+    decryptingMessage(True)

@@ -73,3 +73,5 @@ def encryptingMessage():
     image2.save('encryptedPhoto.png')
     print("Message Encrypted")
 
+if __name__ == "__main__":
+    encryptingMessage()
